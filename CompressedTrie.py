@@ -3,11 +3,13 @@ def SearchInGivenTrie(word, HeadOfTrie):
     cur=HeadOfTrie
     for ch in word:
         if ch not in cur:
-            print("Not Found")
-            return
+            #print("Not Found")
+            #return
+            return []
         cur=cur[ch]
     if '*' in cur:
         list=cur['*']
+        #this gives the file posision in OccurrenceList for the given word 
         file_pos=list[1]
         #print(file_pos)
         with open("OccurrenceList.txt", "r") as f:
@@ -15,10 +17,12 @@ def SearchInGivenTrie(word, HeadOfTrie):
             line=f.readline()
             list=line.split()
             list.pop(0)
-            print("Websites containing the word: "+ word)
-            print(list)
+            #print("Websites containing the word: "+ word)
+            #print(list)
+            return list
     else:
-        print( "Not found")
+        #print( "Not found")
+        return []
 
 #add a given word in compressed trie
 def add(word, file_pos, HeadOfTrie):
