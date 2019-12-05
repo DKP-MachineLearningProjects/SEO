@@ -30,4 +30,3 @@ def WebCrawler(URL):
                     line=str(list[i][0]) + " " + str(list[i][1]) +'\n'
                     f.write(line)
     f.close()
-    

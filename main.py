@@ -1,5 +1,7 @@
 from WebScrapping import WebCrawler
 from AddToOccurrenceList import AddNewWordInOccurrenceList
+from AddToOccurrenceList import CreateOccurrenceList
+from CompressedTrie import SearchInGivenTrie, CreateCompressedTrie
 
 def CreateURLlist(URLlist):
     #health related data
@@ -18,20 +20,20 @@ def CreateURLlist(URLlist):
     URLlist.append("http://www.astronomy.com/")
 
 
-def main():
-    URLlist=[]
-    CreateURLlist(URLlist)
-    for newURL in URLlist:
-        if newURL=="https://electrek.co/guides/tesla/":
-            WebCrawler(newURL)
-        f=open("ExtractWords.txt", "r")
-        i=1
-        for line in f:
-            words=line.split()
-            AddNewWordInOccurrenceList(words[0],newURL,words[1],"OccurrenceList.txt")
-            i=i+1
-            if(i==5):
-                break
-        f.close()
 
-main()
+def __main__():
+    URLlist=[]
+    #Head of a trie with empty structure at initial condition
+    HeadOfTrie={}
+    CreateURLlist(URLlist)
+    
+    #This function create a OccurrenceList in file OccurrenceList.txt
+    #This should be call only once and no need to call for every search
+    CreateCompressedTrie("OccurrenceList.txt", HeadOfTrie)
+    
+    
+    SearchInGivenTrie("black", HeadOfTrie)
+
+#This is the call of main function which is used to create OccurrenceList and Compressed Trie
+#        
+__main__()

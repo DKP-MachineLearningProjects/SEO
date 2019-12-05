@@ -1,3 +1,21 @@
+from WebScrapping import WebCrawler
+
+#Create OccurrenceList.txt for all the URLs provided
+def CreateOccurrenceList(URLlist):
+    open('OccurrenceList.txt', 'r+').truncate(0)
+    for newURL in URLlist:
+        #this function puts all words and frequency into a file named ExtractWords.txt
+        WebCrawler(newURL)
+        #now the file ExtractWords.txt contains all words and their frequencies
+        f=open("ExtractWords.txt", "r")
+        i=0
+        for line in f:
+            words=line.split()
+            AddNewWordInOccurrenceList(words[0],newURL,words[1],"OccurrenceList.txt")
+            i=i+1
+            if(i==20):
+                break
+        f.close()
 
 #this function add a word and its frequency in OccurrenceList.txt file with URL as well.
 def AddNewWordInOccurrenceList(wordtoadd, url, freq, filename):
@@ -19,12 +37,13 @@ def AddNewWordInOccurrenceList(wordtoadd, url, freq, filename):
     fin.close()
     fout.close()
 
-    fout=open("NewOccuranceList.txt", "w")
+    fout=open(filename, "w")
     fin=open("temp.txt","r")
     for line in fin:
         fout.write(line)
     fin.close()
     fout.close()
+
 
 #inputs are word to add, the url where the word is in, words frequency and file for occurrence list
 AddNewWordInOccurrenceList("he", "www.helloworld.com", 5, "NewOccurrenceList.txt")

@@ -1,0 +1,120 @@
+health https://www.webmd.com/living-healthy 200
+healthy https://www.webmd.com/living-healthy 131
+food https://www.webmd.com/living-healthy 90 https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 154
+fitness https://www.webmd.com/living-healthy 79
+find https://www.webmd.com/living-healthy 68 http://www.astronomy.com/ 97
+beauty https://www.webmd.com/living-healthy 67
+diet https://www.webmd.com/living-healthy 67
+void https://www.webmd.com/living-healthy 66
+living https://www.webmd.com/living-healthy 64
+cancer https://www.webmd.com/living-healthy 64
+view https://www.webmd.com/living-healthy 64
+drugs https://www.webmd.com/living-healthy 63
+care https://www.webmd.com/living-healthy 62
+news https://www.webmd.com/living-healthy 61 https://screenrant.com/movie-news/ 57 http://www.astronomy.com/ 119
+supplements https://www.webmd.com/living-healthy 58
+balance https://www.webmd.com/living-healthy 56
+weight https://www.webmd.com/living-healthy 51
+new https://www.webmd.com/living-healthy 50 https://www.cnet.com/news/ 244 https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 1454 https://screenrant.com/movie-news/ 85
+featured https://www.webmd.com/living-healthy 50
+topics https://www.webmd.com/living-healthy 50
+best https://www.cnet.com/news/ 591 https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 186
+ago https://www.cnet.com/news/ 300
+tech https://www.cnet.com/news/ 207
+star https://www.cnet.com/news/ 173 https://screenrant.com/movie-news/ 228
+smart https://www.cnet.com/news/ 145
+home https://www.cnet.com/news/ 136
+phone https://www.cnet.com/news/ 135
+wars https://www.cnet.com/news/ 133 https://screenrant.com/movie-news/ 193
+deals https://www.cnet.com/news/ 126
+phones https://www.cnet.com/news/ 126
+internet https://www.cnet.com/news/ 114
+mobile https://www.cnet.com/news/ 114
+coupons https://www.cnet.com/news/ 107
+apple https://www.cnet.com/news/ 105
+cars https://www.cnet.com/news/ 104
+tv https://www.cnet.com/news/ 101
+rise https://www.cnet.com/news/ 101 https://screenrant.com/movie-news/ 149
+may https://www.cnet.com/news/ 100 http://www.astronomy.com/ 76
+google https://www.cnet.com/news/ 98
+roman https://www.ducksters.com/history/ancient_rome.php/ 169
+rome https://www.ducksters.com/history/ancient_rome.php/ 155
+ancient https://www.ducksters.com/history/ancient_rome.php/ 111
+history https://www.ducksters.com/history/ancient_rome.php/ 76
+empire https://www.ducksters.com/history/ancient_rome.php/ 70
+life https://www.ducksters.com/history/ancient_rome.php/ 66
+margin https://www.ducksters.com/history/ancient_rome.php/ 51 https://electrek.co/guides/tesla/ 84
+city https://www.ducksters.com/history/ancient_rome.php/ 51
+auto https://www.ducksters.com/history/ancient_rome.php/ 48
+width https://www.ducksters.com/history/ancient_rome.php/ 45 https://electrek.co/guides/tesla/ 80
+republic https://www.ducksters.com/history/ancient_rome.php/ 39
+us https://www.ducksters.com/history/ancient_rome.php/ 31 https://screenrant.com/movie-news/ 72 http://www.astronomy.com/ 94
+world https://www.ducksters.com/history/ancient_rome.php/ 30
+engineering https://www.ducksters.com/history/ancient_rome.php/ 26
+solid https://www.ducksters.com/history/ancient_rome.php/ 24
+col https://www.ducksters.com/history/ancient_rome.php/ 24
+daily https://www.ducksters.com/history/ancient_rome.php/ 24
+america https://www.ducksters.com/history/ancient_rome.php/ 24
+war https://www.ducksters.com/history/ancient_rome.php/ 24
+kids https://www.ducksters.com/history/ancient_rome.php/ 23
+tesla https://electrek.co/guides/tesla/ 288
+var https://electrek.co/guides/tesla/ 160 https://screenrant.com/movie-news/ 58
+return https://electrek.co/guides/tesla/ 112
+function https://electrek.co/guides/tesla/ 98
+display https://electrek.co/guides/tesla/ 96
+model https://electrek.co/guides/tesla/ 83
+full https://electrek.co/guides/tesla/ 80
+none https://electrek.co/guides/tesla/ 78
+sizes https://electrek.co/guides/tesla/ 77
+expand https://electrek.co/guides/tesla/ 70
+story https://electrek.co/guides/tesla/ 70
+padding https://electrek.co/guides/tesla/ 66
+lambert https://electrek.co/guides/tesla/ 63
+true https://electrek.co/guides/tesla/ 60
+case https://electrek.co/guides/tesla/ 56
+center https://electrek.co/guides/tesla/ 54
+bidder https://electrek.co/guides/tesla/ 52
+dec https://electrek.co/guides/tesla/ 50 https://screenrant.com/movie-news/ 240
+times https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 1919
+sketch https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 1426
+jersey https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 778
+today https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 664
+restaurants https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 579
+created https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 455
+york https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 343
+american https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 257
+central https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 253
+diner https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 236
+booked https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 221
+dining https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 217
+restaurant https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 209
+reviews https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 198 https://screenrant.com/movie-news/ 55
+east https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 168
+great https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 154 http://www.astronomy.com/ 83
+house https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/ 150
+ie https://screenrant.com/movie-news/ 1052
+movie https://screenrant.com/movie-news/ 124
+lists https://screenrant.com/movie-news/ 119
+movies https://screenrant.com/movie-news/ 87
+justice https://screenrant.com/movie-news/ 82
+league https://screenrant.com/movie-news/ 82
+time https://screenrant.com/movie-news/ 71
+policy https://screenrant.com/movie-news/ 68
+cut https://screenrant.com/movie-news/ 68
+joker https://screenrant.com/movie-news/ 57
+oscar https://screenrant.com/movie-news/ 57
+read http://www.astronomy.com/ 193
+moon http://www.astronomy.com/ 187
+sky http://www.astronomy.com/ 172
+first http://www.astronomy.com/ 127
+water http://www.astronomy.com/ 117
+astronomy http://www.astronomy.com/ 99
+week http://www.astronomy.com/ 99
+bytes http://www.astronomy.com/ 98
+solar http://www.astronomy.com/ 90
+november http://www.astronomy.com/ 83
+black http://www.astronomy.com/ 75
+found http://www.astronomy.com/ 74
+space http://www.astronomy.com/ 73
+sun http://www.astronomy.com/ 69
+galaxies http://www.astronomy.com/ 63
