@@ -1,4 +1,6 @@
-def addNewWordInOccuranceList(wordtoadd, url, freq, filename):
+
+#this function add a word and its frequency in OccurrenceList.txt file with URL as well.
+def AddNewWordInOccurrenceList(wordtoadd, url, freq, filename):
     fin=open(filename, "r")
     fout=open("temp.txt","w")
     wordFound=False
@@ -11,7 +13,7 @@ def addNewWordInOccuranceList(wordtoadd, url, freq, filename):
             fout.write(line.rstrip('\n')+" "+url+" "+str(freq)+'\n')
         else:
             fout.write(line)
-    #if word is already not in occurance list, then add a fresh copy with corresponding url.
+    #if word is already not in occurrence list, then add a fresh copy with corresponding url.
     if(wordFound == False):
         fout.write(wordtoadd+" "+url+" "+str(freq)+'\n')
     fin.close()
@@ -24,5 +26,5 @@ def addNewWordInOccuranceList(wordtoadd, url, freq, filename):
     fin.close()
     fout.close()
 
-#inputs are word to add, the url where the word is in, words frequency and file for occurance list
-addNewWordInOccuranceList("he", "www.helloworld.com", 5, "NewOccuranceList.txt")
+#inputs are word to add, the url where the word is in, words frequency and file for occurrence list
+AddNewWordInOccurrenceList("he", "www.helloworld.com", 5, "NewOccurrenceList.txt")

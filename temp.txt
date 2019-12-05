@@ -1,3 +1,1 @@
-hello www.helloworld.com 5 www.helloworld.com 5
-she www.helloworld.com 5
-he www.helloworld.com 5
+he www.helloworld.com 5 www.helloworld.com 5

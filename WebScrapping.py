@@ -10,6 +10,8 @@ import urllib.request
 from nltk.corpus import stopwords #/home/suraja/nltk_data/corpora/stopwords
 from nltk.corpus import wordnet #/home/suraja/nltk_data/corpora/wordnet
 
+
+#this function extracts all words and their frequencies form an URL and stores them in ExtractWords.txt file. 
 def WebCrawler(URL):
     #URL = "https://www.crummy.com/software/BeautifulSoup/bs4/doc/"
     r = requests.get(URL) 
@@ -28,23 +30,4 @@ def WebCrawler(URL):
                     line=str(list[i][0]) + " " + str(list[i][1]) +'\n'
                     f.write(line)
     f.close()
-    #print (l[0][1]) # prints most common words staring at most common.
-
-URLlist=[]
-#health related data
-URLlist.append("https://www.webmd.com/living-healthy")
-#technology related data
-URLlist.append("https://www.cnet.com/news/")
-#history related data
-URLlist.append("https://www.ducksters.com/history/ancient_rome.php/")
-#electric car related data
-URLlist.append("https://electrek.co/guides/tesla/")
-#NJ restaurants related data
-URLlist.append("https://www.opentable.com/g/new-york-area/new-jersey-central-restaurants/")
-#movie related data
-URLlist.append("https://screenrant.com/movie-news/")
-#astronomy related data
-URLlist.append("http://www.astronomy.com/")
-
-
-WebCrawler(URLlist[6])
+    
